@@ -1,0 +1,13 @@
+<h1> Hello World</h1>
+<p> first webpage !</p>
+<p> {{ stuff|striptags }}</p>
+<h3> Favorite player </h3>
+{% for name in favorite_player %}
+    {% if name=="Harrit" %}
+        {{ name|lower }}</br>
+    {% else %}
+        {{ name }} </br>
+    {% endif %}
+{% endfor %}
+</br></br>
+{{ favorite_player.1 }}

@@ -1,0 +1,10 @@
+ # to run the app Serving Flask app 'myApp' (this will aks to restart the server after each local modification)
+ python3 -m flask --app myApp run 
+ # to run the app Serving Flask app 'myApp' (with the debug mode activate, no more need to restart the server after updates or changes.) 
+ flask run --debug
+
+ # on development enviroment
+ export FLASK_ENV=development
+ export FLASK_APP=myApp.py
+
+ 
